@@ -1,0 +1,165 @@
+<!doctype html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='1style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Veterinaria Bs As</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="d-flex" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">El local</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Los vendedores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">El lugar y los horarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Conviértete en vendedor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active  text-success" aria-current="page" href="#">Comprar comida</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+   
+    <main>
+
+        <section>
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-3">
+                <div class="border border-primary">
+                  <div class="card-body">
+                    <h5 class="card-title">Jubilados</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-title">80%</h5>
+                    <p class="card-text">*presentar documentación.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="border border-secondary">
+                  <div class="card-body">
+                    <h5 class="card-title">Estudiantes</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-title">50%</h5>
+                    <p class="card-text">*presentar documentación.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="border border-warning">
+                  <div class="card-body">
+                    <h5 class="card-title">Niños</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-title">15%</h5>
+                    <p class="card-text">*presentar documentación.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <p class="palabras-del-medio">venta</p>
+          <h1 class="palabras-del-medio">Valor del kilo $200</h1>
+        </section>
+
+
+        <section>
+
+          <form>
+            <div clas="container">
+              <div class="row justify-content-md-center">
+                <div class="col col-lg-3">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col col-lg-3">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+              </div>
+              <div class="row justify-content-md-center">  
+                <div class="col col-lg-6">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Correo">
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col col-lg-3">
+                  <label for="Cantidad" class="form-label">Cantidad</label>
+                  <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+                </div>
+                <div class="col col-lg-3">
+                  <label for="inputState" class="form-label">Categoria</label>
+                  <select id="inputState" class="form-select text-muted">
+                    <option> Seleccione una opcion</option>
+                    <option>Jubilados</option>
+                    <option>Estudiantes</option>
+                    <option>Niños</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col col-lg-6">
+                  <input id="total-a-pagar" class="form-control" type="text" value="Total a Pagar: $" aria-label="Ejemplo de input de solo lectura" readonly>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="d-grid gap-2 col-lg-3">
+                  <button class="btn btn-success" type="button" id="borrar">Borrar</button>
+                </div>
+                <div class="d-grid gap-2 col-lg-3">
+                  <button class="btn btn-success" type="button" id="resumen">Resumen</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+      <nav class="nav nav-pills nav-fill navbar-dark bg-primary">
+        
+        <a class="nav-link text-white" href="#">preguntas frecuentes</a>
+        <a class="nav-link text-white" href="#">Contáctanos</a>
+        <a class="nav-link text-white" href="#">Estudia para veterinario</a>
+        <a class="nav-link text-white" href="#">Conferencias</a>
+        <a class="nav-link text-white" href="#">Términos y condiciones</a>
+        <a class="nav-link text-white" href="#">Privacidad</a>
+        <a class="nav-link text-white" href="#">Veterinarios</a>
+        
+      </nav>
+
+    </footer>
+
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="1main.js"></script>
+  </body>
+</html>

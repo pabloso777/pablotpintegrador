@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 4px;
+	
+
+}
+
+.btn-primary{
+
+    background-color: rgb(75, 255, 75);
+    color: white;
+    padding: 2% 40%;
+    border: 1px solid green;
+    display: flex;
+    JUSTIFY-CONTENT: space-around;
+   
+}
+
+.palabras-del-medio{
+    display: flex;
+    JUSTIFY-CONTENT: center;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    padding: 0px;
+}
+
+
+footer{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    margin: 0px;
+   padding: 15px;
+}
